@@ -1,0 +1,31 @@
+DigitlaOcean.- Comprar $5.00 Grupo de 3
+HostGator
+Bitbucket
+Trello
+Scrum
+Gitlab
+Amazzon
+Wappalyzer
+GitHub = Publico
+Git
+Cuenta de github
+Cristhiam10
+
+git
+git --version
+git config --global user.name "Cristhiam"
+git config --global user.name "Cristhiam"
+git config --list
+
+cls borrar todo
+ship abrir comando de ventana
+
+git init
+
+git add .     agregar archivos trabajados
+
+git status
+
+git commit -m
+
+git clone y pegar el git

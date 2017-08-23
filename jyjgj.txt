@@ -1,0 +1,46 @@
+#include < 16F84A . h >
+2: #use delay ( clock = 4000000 )
+3: #fuses XT , NOWDT
+4: #use standard_io ( B )
+5:
+6: void main ( void )
+7:
+8:
+9: {
+10: Do {
+11:
+12: OUTPUT_HIGH ( PIN_B0 );
+13: delay_ms ( 200 );
+14:
+15: OUTPUT_HIGH ( PIN_B1 );
+16: delay_ms ( 200 );
+17:
+18: OUTPUT_HIGH ( PIN_B2 );
+19: delay_ms ( 200 );
+20:
+21: OUTPUT_HIGH ( PIN_B3 );
+22: delay_ms ( 200 );
+23:
+24: OUTPUT_HIGH ( PIN_B4 );
+25: delay_ms ( 200 );
+26:
+27: OUTPUT_LOW ( PIN_B0 );
+28: delay_ms ( 200 );
+29:
+30: OUTPUT_LOW ( PIN_B1 );
+31: delay_ms ( 200 );
+32:
+33: OUTPUT_LOW ( PIN_B2 );
+34: delay_ms ( 200 );
+35:
+36: OUTPUT_LOW ( PIN_B3 );
+37: delay_ms ( 200 );
+38:
+39: OUTPUT_LOW ( PIN_B4 );
+40: delay_ms ( 200 );
+41:
+42: }
+43:
+44: WHILE ( TRUE );
+45:
+46: }
